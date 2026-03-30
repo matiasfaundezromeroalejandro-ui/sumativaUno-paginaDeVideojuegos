@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="GameVerse, portal gamer con juegos destacados, clásicos, torneos y una estética visual potente."
+  />
+  <title>GameVerse | Portal Gamer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Enlace de accesibilidad para saltar al contenido principal -->
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <!-- Encabezado principal con logo, menú y acceso rápido -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#" class="logo" aria-label="Inicio GameVerse">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">GameVerse</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#destacados">Destacados</a></li>
+          <li><a href="#clasicos">Clásicos</a></li>
+          <li><a href="#torneos">Torneos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#destacados" class="btn btn-primary">Entrar</a>
+    </div>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main id="contenido-principal">
+    <!-- Sección principal o hero -->
+    <section id="inicio" class="hero-section">
+      <!-- Capa visual para mejorar la lectura sobre el fondo -->
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <!-- Bloque de presentación principal -->
+        <article class="hero-text">
+          <span class="hero-label">Nuevo universo gamer</span>
+          <h1>Revive la energía del gaming en una experiencia épica</h1>
+          <p class="hero-description">
+            Descubre títulos impactantes, explora clásicos inolvidables y sumérgete en un entorno
+            visual cargado de color, intensidad y emoción desde el primer instante.
+          </p>
+
+          <!-- Botones de acción principales -->
+          <div class="hero-actions">
+            <a href="#destacados" class="btn btn-primary">Explorar juegos</a>
+            <a href="#torneos" class="btn btn-secondary">Ver torneos</a>
+          </div>
+
+          <!-- Indicadores destacados -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <strong>120+</strong>
+              <span>Juegos destacados</span>
+            </div>
+            <div class="stat-card">
+              <strong>45K</strong>
+              <span>Jugadores activos</span>
+            </div>
+            <div class="stat-card">
+              <strong>32</strong>
+              <span>Eventos en curso</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Panel lateral destacado -->
+        <aside class="hero-panel">
+          <div class="panel-card">
+            <span class="panel-badge">Top del momento</span>
+            <h2>Cyber Clash Arena</h2>
+            <p>
+              Adéntrate en una arena futurista donde la velocidad, la táctica y la precisión
+              convierten cada partida en una batalla inolvidable.
+            </p>
+
+            <ul class="feature-list">
+              <li>Competencia online</li>
+              <li>Eventos especiales semanales</li>
+              <li>Ranking global en vivo</li>
+            </ul>
+
+            <a href="#destacados" class="btn btn-primary">Descubrir</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Sección de juegos destacados -->
+    <section id="destacados" class="section-block">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Juegos destacados</span>
+          <h2>Los títulos más llamativos del momento</h2>
+          <p>
+            Una selección con propuestas cargadas de acción, aventura y adrenalina para jugadores
+            que buscan experiencias visuales memorables.
+          </p>
+        </div>
+
+        <!-- Tarjetas de juegos destacados -->
+        <div class="games-grid">
+          <article class="game-card">
+            <div class="game-image">
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
+                alt="Jugador en setup gamer con luces intensas"
+              />
+            </div>
+            <div class="game-info">
+              <span class="game-tag">Acción</span>
+              <h3>Shadow Strike X</h3>
+              <p>
+                Combate veloz, escenarios imponentes y una energía perfecta para quienes disfrutan la intensidad.
+              </p>
+              <a href="#" class="card-link">Explorar juego</a>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-image">
+              <img
+                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80"
+                alt="Control de videojuegos con luces de colores"
+              />
+            </div>
+            <div class="game-info">
+              <span class="game-tag">Aventura</span>
+              <h3>Legends of Astra</h3>
+              <p>
+                Recorre mundos sorprendentes, supera grandes desafíos y descubre secretos en cada misión.
+              </p>
+              <a href="#" class="card-link">Explorar juego</a>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-image">
+              <img
+                src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=1200&q=80"
+                alt="Setup gamer RGB con monitor y escritorio"
+              />
+            </div>
+            <div class="game-info">
+              <span class="game-tag">Carreras</span>
+              <h3>Turbo Neon Race</h3>
+              <p>
+                Siente la velocidad en circuitos futuristas llenos de luz, riesgo y emoción constante.
+              </p>
+              <a href="#" class="card-link">Explorar juego</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de inspiración retro y clásicos -->
+    <section id="clasicos" class="section-block section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Clásicos legendarios</span>
+          <h2>La esencia retro que sigue viva</h2>
+          <p>
+            Grandes referentes del mundo gamer que marcaron generaciones y siguen siendo parte del corazón de esta cultura.
+          </p>
+        </div>
+
+        <!-- Tarjetas temáticas retro -->
+        <div class="classic-grid">
+          <article class="classic-card">
+            <h3>Velocidad arcade</h3>
+            <p>Escenarios intensos, movimiento sin pausa y energía total en cada segundo.</p>
+          </article>
+
+          <article class="classic-card">
+            <h3>Aventura inolvidable</h3>
+            <p>Mundos icónicos, exploración y emoción en experiencias que nunca pasan de moda.</p>
+          </article>
+
+          <article class="classic-card">
+            <h3>Arcade puro</h3>
+            <p>Partidas rápidas, reflejos al límite y una vibra clásica que sigue conquistando.</p>
+          </article>
+
+          <article class="classic-card">
+            <h3>Batallas épicas</h3>
+            <p>Enfrentamientos memorables, personajes legendarios y acción competitiva.</p>
+          </article>
+
+          <article class="classic-card">
+            <h3>Fantasia y exploración</h3>
+            <p>Viajes heroicos, desafíos intensos y escenarios capaces de atrapar a cualquiera.</p>
+          </article>
+
+          <article class="classic-card">
+            <h3>Combate clásico</h3>
+            <p>Duelo, técnica y emoción en uno de los estilos más representativos del gaming.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de torneos y competencias -->
+    <section id="torneos" class="section-block">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Eventos</span>
+          <h2>Próximos torneos y competencias</h2>
+          <p>
+            Sigue la emoción competitiva y prepárate para entrar al circuito donde cada partida cuenta.
+          </p>
+        </div>
+
+        <!-- Tarjetas de torneos -->
+        <div class="tournaments-grid">
+          <article class="tournament-card">
+            <h3>GameVerse Cup 2026</h3>
+            <p><strong>Fecha:</strong> 15 de abril</p>
+            <p><strong>Formato:</strong> Online</p>
+            <p><strong>Premio:</strong> USD 5.000</p>
+            <a href="#" class="btn btn-secondary">Participar</a>
+          </article>
+
+          <article class="tournament-card">
+            <h3>Neon Battle League</h3>
+            <p><strong>Fecha:</strong> 28 de abril</p>
+            <p><strong>Formato:</strong> Presencial + streaming</p>
+            <p><strong>Premio:</strong> Equipamiento gamer</p>
+            <a href="#" class="btn btn-secondary">Participar</a>
+          </article>
+
+          <article class="tournament-card">
+            <h3>Masters Arena</h3>
+            <p><strong>Fecha:</strong> 10 de mayo</p>
+            <p><strong>Formato:</strong> Internacional</p>
+            <p><strong>Premio:</strong> Pase VIP + trofeo</p>
+            <a href="#" class="btn btn-secondary">Participar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner promocional -->
+    <section class="section-block promo-section">
+      <div class="container promo-banner">
+        <div>
+          <span class="section-tag">Experiencia total</span>
+          <h2>Todo lo que te gusta del gaming, en un solo lugar</h2>
+          <p>
+            Novedades, torneos, visuales impactantes y una portada que transmite de inmediato una vibra gamer real.
+          </p>
+        </div>
+        <a href="#contacto" class="btn btn-primary">Unirme ahora</a>
+      </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="section-block section-alt">
+      <div class="container contact-grid">
+        <article>
+          <span class="section-tag">Comunidad</span>
+          <h2>Conéctate con GameVerse</h2>
+          <p>
+            Recibe noticias, novedades, lanzamientos y eventos especiales para seguir conectado al universo gamer.
+          </p>
+        </article>
+
+        <!-- Formulario de contacto -->
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="Tu correo" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 GameVerse. Vive el juego.</p>
+      <nav aria-label="Enlaces del pie de página">
+        <ul class="footer-links">
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Términos</a></li>
+          <li><a href="#">Soporte</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
